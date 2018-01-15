@@ -1,0 +1,149 @@
+/*
+ * Author:        Pierre-Henry Soria <hi@ph7.me>
+ * Copyright:     (c) 2012-2018, Pierre-Henry Soria. All Rights Reserved.
+ * License:       CC BY <http://creativecommons.org/licenses/by/3.0/>
+ */
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+  font-size: 13px;
+  color: #333;
+  background: url(../img/background.jpg) repeat-y;
+  background-size: cover;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.center, #container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  width: 80%;
+}
+
+#container {
+  margin-top: 15%;
+  font-weight: bold;
+  width: 60%;
+}
+
+#container, #container a {
+  color: #0A2733;
+}
+
+header {
+  text-shadow: 0 .9em #ccc,0 0 8px rgba(255,255,255,.6);
+  margin-bottom: 40px;
+}
+
+footer {
+  font-size: 11px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding: 1px 10px;
+  clear: both;
+  border-top: 1px dotted #999;
+}
+
+.small {
+  font-size: x-small;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration:underline;
+}
+
+abbr {
+  border-bottom: 1px dotted #666;
+}
+
+.success {
+  color: green;
+}
+
+.warning, .error, .mandatory {
+  color: red;
+}
+
+.success, .bold, .warning, .error {
+  font-weight: bold;
+}
+
+input, textarea, select {
+  border-radius: 5px;
+  text-shadow: 0 1px 0 rgba(200, 200, 200, .6);
+  box-shadow: 1px 1px 4px #aaa inset;
+}
+
+input:not([type=radio]) {
+  margin: 6px;
+  width: 260px;
+  height: 24px;
+  font-size: 16px;
+}
+
+input[type="submit"], input[type="reset"] {
+  width: 190px;
+}
+
+/* Add Heart */
+
+@font-face {
+    font-family: 'ElegantIcons';
+    src:url('../fonts/ElegantIcons.eot');
+    src:url('../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ElegantIcons.ttf') format('truetype'),
+        url('../fonts/ElegantIcons.svg#ElegantIcons') format('svg'),
+        url('../fonts/ElegantIcons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+font-family: 'ElegantIcons';
+src: url('../fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+
+}
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'ElegantIcons';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_heart_alt:before {
+    content: "\e030";
+}
+
+.icon_heart_alt:before {
+    font-family: 'ElegantIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}

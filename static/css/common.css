@@ -99,8 +99,8 @@ input[type="submit"], input[type="reset"] {
   width: 190px;
 }
 
-/* Add Heart */
 
+/*** Add Heart ***/
 @font-face {
     font-family: 'ElegantIcons';
     src:url('../fonts/ElegantIcons.eot');
@@ -113,11 +113,10 @@ input[type="submit"], input[type="reset"] {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-@font-face {
-font-family: 'ElegantIcons';
-src: url('../fonts/ElegantIcons.svg#ElegantIcons') format('svg');
-
-}
+    @font-face {
+        font-family: 'ElegantIcons';
+        src: url('../fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+    }
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */

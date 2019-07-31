@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /privacy.txt
+Disallow: /tos.txt

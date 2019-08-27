@@ -1,0 +1,15 @@
+Nova groups for food processing
+
+
+The NOVA classification system classifys the products into 4 large groups depending on their degree of processing the food, and not on their nutritional quality (unlike the Nutriscore).
+
+The groups are: 
+
+
+Group 1 => Unprocessed or minimally processed foods.
+Group 2 => Processed culinary ingredients.
+Group 3 => Processed foods.
+Group 4 => Ultra-processed food and drink products.
+
+
+Not all processed nutriments are bad for health, but there are serious doubts about the harmful effects.

@@ -1,7 +1,7 @@
 Nova groups for food processing
 
 
-The NOVA classification system classifys the products into 4 large groups depending on their degree of processing the food, and not on their nutritional quality (unlike the Nutriscore).
+The NOVA classification system classifies the products into 4 large groups depending on their degree of processing the food, and not on their nutritional quality (unlike the Nutriscore).
 
 It is a great system for easily recognising ultra-processed foodstuffs.
 

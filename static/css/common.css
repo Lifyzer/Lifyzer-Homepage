@@ -16,7 +16,7 @@ body {
   color: #333;
   background: url(../img/background.jpg) repeat-y;
   background-size: cover;
-  opacity: 0.5;
+  opacity: .8;
   margin-top: 20px;
 }
 

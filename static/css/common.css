@@ -107,11 +107,11 @@ img, video, iframe {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon_heart_alt:before {
+.icon-heart-alt:before {
     content: "\e030";
 }
 
-.icon_heart_alt:before {
+.icon-heart-alt:before {
     font-family: 'ElegantIcons';
     speak: none;
     font-style: normal;

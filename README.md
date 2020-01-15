@@ -1,4 +1,4 @@
-## Landing page for promoting [Lifyzer](http://lifyzer.com)'s apps ;)
+## Landing page for promoting [Lifyzer](https://lifyzer.com)'s apps ;)
 
 
 ## 🎨 Author

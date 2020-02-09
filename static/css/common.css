@@ -1,6 +1,6 @@
 /*
  * Author:        Pierre-Henry Soria <hi@ph7.me>
- * Copyright:     (c) 2012-2019, Pierre-Henry Soria. All Rights Reserved.
+ * Copyright:     (c) 2012-2020, Pierre-Henry Soria. All Rights Reserved.
  * License:       CC BY <http://creativecommons.org/licenses/by/3.0/>
  */
 
@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: Arial,Verdana,Helvetica,sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #333;
   background: url(../img/background.jpg) repeat-y;
   background-size: cover;
@@ -31,9 +31,14 @@ body {
 }
 
 #container {
-  margin-top: 15%;
-  font-weight: bold;
-  width: 60%;
+    background-color: #fff;
+    font-size: 14.6px;
+    color: #222;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 10px 22px 0px 22px;
+    width: 80%;
 }
 
 #container, #container a {

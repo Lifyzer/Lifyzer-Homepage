@@ -39,10 +39,11 @@ body {
     margin-top: 5%;
     padding: 10px 22px 0px 22px;
     width: 80%;
+    border: 1px solid #e6e5dc;
 }
 
-#container, #container a {
-  color: #0A2733;
+#container a {
+    color: #08c;
 }
 
 header {

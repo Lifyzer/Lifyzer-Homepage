@@ -18,6 +18,7 @@ body {
   background-size: cover;
   opacity: .9;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .center, #container {
@@ -37,7 +38,7 @@ body {
     line-height: 30px;
     border-radius: 15px;
     margin-top: 5%;
-    padding: 10px 22px 0px 22px;
+    padding: 10px 22px 0 22px;
     width: 80%;
     border: 1px solid #e6e5dc;
 }
@@ -54,7 +55,6 @@ header {
 footer {
   font-size: 11px;
   margin-top: 80px;
-  margin-bottom: 20px;
   padding: 1px 10px;
   clear: both;
   border-top: 1px dotted #999;
